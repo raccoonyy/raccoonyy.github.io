@@ -96,6 +96,7 @@ h1 {
 h2 {
   margin: 0;
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 .lede,
@@ -140,10 +141,11 @@ h2 {
   padding: 24px 0;
   border-bottom: 1px solid var(--line);
   animation: fade-up 700ms ease both;
+  align-items: baseline;
 }
 
-.section-heading {
-  padding-top: 2px;
+.section:has(.card-list) {
+  align-items: start;
 }
 
 .section-body > :first-child {
@@ -216,6 +218,7 @@ h2 {
 .link-list a,
 .plain-list a {
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 .link-list p {
